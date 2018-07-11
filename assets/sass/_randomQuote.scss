@@ -1,0 +1,31 @@
+#quote-section {
+
+    background: linear-gradient(135deg, rgba(0, 0, 0, .2)0, #002d77 100%);
+    background-position: right;
+    background-size: cover;
+    padding: 180px 0;
+    
+    h1 {
+        color: #fff;
+        font-family: $displayFont;
+        font-size: 2.5rem;
+        line-height: 1.2;
+        letter-spacing: .2rem;
+        margin-bottom: 50px;
+        text-align: center;
+        text-transform: capitalize;
+        
+    }
+
+    span {
+        color: #fff;
+        display: block;
+        font-size: 1rem;
+        font-weight: 300;
+        letter-spacing: .2rem;
+        text-align: center;
+        text-transform: capitalize;
+
+    }
+    
+}

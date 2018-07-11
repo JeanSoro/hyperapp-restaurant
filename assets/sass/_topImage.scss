@@ -1,0 +1,59 @@
+#top-img {
+    background: $black;
+    min-height: 500px;
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(0, 0, 0, .2)0, #002d77 100%);
+    background-image: linear-gradient(135deg, rgba(0, 0, 0, .2)0, #000 100%), url('../img/hiro-pic.jpeg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    .title {
+        padding: 200px 0 80px;
+        text-align: right;
+
+        h1 {
+            font-family: $displayFont;
+            text-transform: uppercase;
+            color: white;
+            font-weight: 300;
+            font-size: 6rem;
+        }
+
+    
+        h5 {
+            text-transform: uppercase;
+            color: white;
+            font-weight: 300;
+        }
+    }
+
+    .contact-info {
+        position: absolute;
+        bottom: 60px;
+        right: 0;
+        font-size: .8rem;
+        line-height: 1.5rem;
+        text-align: right;
+        width: 100%;
+        color: $paragraphColor;
+
+        strong {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .booking {
+            color: $paragraphColor;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #fff;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+    }
+
+    
+}
